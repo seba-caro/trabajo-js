@@ -10,6 +10,10 @@ footer {
 .logonav{
     height: 45px;
 }
+.logonav2{
+    height: 45px;
+    padding-left: 15px;
+}
 
 
 nav{
@@ -32,4 +36,8 @@ main{
     background-image: url(./img/fondogris.jpg);
     width: 100%;
     height: auto;
+}
+
+.c-blanco{
+    color: white;
 }
