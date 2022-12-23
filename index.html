@@ -1,49 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Showroom zeus</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./styles.css">
     <script defer src="./js/script.js"></script>
 </head>
+
 <body>
-    
-        <h1>Venta de ropa y accesorios de belleza</h1>
-
-        <nav class="navbar navbar-expand-lg navbar-dark">
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#">DEFENSA Y JUSTICIA HANDBALL</a>
-                <img class="d-flex" src="./img/escudo.png" alt="" width="50" height="50">
-                <button class="navbar-toggler align-items-lg-start" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+                <a class="navbar-brand" href="#">Zeus indumentaria</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
                 </button>
-
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto ms-2 mb-lg-0 align-items-center">
-                    <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="./pages/categorias.html">Categorias</a>
-                    </li>
-                    <li class="nav-item">
-                    <a class="nav-link" href="./pages/elclub.html">El club</a>
-                    </li>
-                    <li class="nav-item ">
-                    <a class="nav-link" href="./pages/fixture.html">Fixture</a>
-
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./pages/noticias.html">Noticias</a>
-    
+                <img class="logonav" src="./img/logo.jfif" alt="">
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Inicio</a>
                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Características</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Precios</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Enlace dropdown
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li><a class="dropdown-item" href="#">Acción</a></li>
+                                <li><a class="dropdown-item" href="#">Otra acción</a></li>
+                                <li><a class="dropdown-item" href="#">Algo más aquí</a></li>
+                            </ul>
+                        </li>
+                    </ul>
 
-                </ul>
-
+                
                 </div>
             </div>
-            </nav>
+            <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Buscar">
+                <button class="btn btn-outline-success" type="submit">Buscar</button>
+            </form>
+        </nav>
+    </header>
 
-    
-    
-    </body>
+    <h1 class="d-flex justify-content-center align-content-center">Venta de ropa y accesorios de belleza</h1>
+ <main>
+<h1>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam aut ullam iste nihil quo autem placeat corrupti praesentium, laborum rem. Minima blanditiis ratione consequuntur ullam suscipit temporibus unde rem a?</h1>
+ </main>
+
+    <footer class="container-fluid c-blanco">
+        <div class="row p-3">
+            <div class="col-xs-12 col-md-6 col-lg-3">
+                <img class="logo" src="./img/logotelefono.png" alt="">
+                <h2 class="d-flex justify-content-center align-items-center f-size20p">Telefono:</h2>
+                <p class="d-flex justify-content-center align-items-center"> <a href="Tel:+541165118869">Contacto</a>
+                </p>
+            </div>
+            <div class="col-xs-12 col-md-6 col-lg-3">
+                <img class="logo" src="./img/logotwitter.png" alt="">
+                <h2 class="d-flex justify-content-center align-items-center f-size20p">Twitter:</h2>
+                <p class="d-flex justify-content-center align-items-center"> <a
+                        href="https://twitter.com/hdefensa?lang=es" target="_blank">HDefensa</a></p>
+            </div>
+            <div class="col-xs-12 col-md-6 col-lg-3">
+                <img class="logo" src="./img/logoig.png" alt="">
+                <h2 class="d-flex justify-content-center align-items-center f-size20p">Instagram</h2>
+                <p class="d-flex justify-content-center align-items-center"> <a
+                        href="https://www.instagram.com/hdefensa/" target="_blank">HDefensa</a></p>
+            </div>
+            <div class="col-xs-12 col-md-6 col-lg-3">
+                <img class="logo" src="./img/logoubi.png" alt="">
+                <h2 class="d-flex justify-content-center align-items-center f-size20p">Ubicacion:</h2>
+                <p class="d-flex justify-content-center align-items-center"><a
+                        href="https://goo.gl/maps/5agtQDJopsEbSMpe6" target="_blank">Bourel 2345. Florencio Varela</a>
+                </p>
+            </div>
+
+        </div>
+
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+        integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
+        crossorigin="anonymous"></script>
+</body>
+
 </html>
